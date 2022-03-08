@@ -7,4 +7,4 @@ let userChoice = nameUser + surnameUser + colorUser + numberUser;
 
 let passwordGenerator = document.getElementById("password-generator");
 
-passwordGenerator.innerHTML = `Your password is: ${userChoice}`;
+passwordGenerator.innerHTML = `<h2>Your password is: ${userChoice}</h2>`;
